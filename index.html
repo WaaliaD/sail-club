@@ -9,26 +9,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
           rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/outline.css" rel="stylesheet">
-    <link href="css/outline-settings.css" rel="stylesheet">
+    <!--<link href="css/outline.css" rel="stylesheet">-->
+    <!--<link href="css/outline-settings.css" rel="stylesheet">-->
 </head>
 <body>
 <header>
-    <div class="df fd-r">
-        <div class="logo">
+    <div class="df fd-r ai-c">
+        <div class="df js-c">
             <img src="img/logotype.svg" alt="Логотип яхт-клуба" width="64px">
         </div>
 
-        <nav class="fd-c df uc">
-            <span>Наш клуб</span>
-            <span>Регаты</span>
-            <span>Команда</span>
-            <span>Обучение</span>
-            <span>Новости</span>
-            <span>Контакты</span>
+        <nav class="fd-r df uc">
+            <span class="opacity">Наш клуб</span>
+            <span class="opacity">Регаты</span>
+            <span class="opacity">Команда</span>
+            <span class="opacity">Обучение</span>
+            <span class="opacity">Новости</span>
+            <span class="opacity">Контакты</span>
         </nav>
 
-        <div class="user">
+        <div class="user df jc-c fd-c ai-c opacity cl-00C6BD">
             <img src="img/icon.svg" alt="User icon" width="16px" height="18px">
         </div>
     </div>
@@ -64,13 +64,13 @@
     </section>
 
     <section class="gallery">
-        <h2 class="ul-00C6BD fw7 f24-34 mb55 t-c">Галерея</h2>
+        <h2 class="ul-00C6BD fw7 f24-34 mb55 t-c mt0">Галерея</h2>
         <div class="df fd-r jc-sb">
-            <img src="img/galleryPhoto1.jpg" alt="Фото из галлереи 1"  width="970px" height="690px">
+            <img src="img/galleryPhoto1.jpg" alt="Фото из галлереи 1" width="970px" height="690px">
             <div class="df fd-c jc-sb">
-                <img src="img/galleryPhoto2.jpg" alt="Фото из галлереи 2" width="170px" height="150px">
-                <img src="img/galleryPhoto3.jpg" alt="Фото из галлереи 3" width="170px" height="150px">
-                <img src="img/galleryPhoto4.jpg" alt="Фото из галлереи 4" width="170px" height="150px">
+                <img class="inactive" src="img/galleryPhoto2.jpg" alt="Фото из галлереи 2" width="170px" height="150px">
+                <img class="inactive" src="img/galleryPhoto3.jpg" alt="Фото из галлереи 3" width="170px" height="150px">
+                <img class="inactive" src="img/galleryPhoto4.jpg" alt="Фото из галлереи 4" width="170px" height="150px">
                 <img src="img/galleryPhoto5.jpg" alt="Фото из галлереи 5" width="170px" height="150px">
             </div>
         </div>
@@ -80,8 +80,8 @@
         <h2 class="ul-00C6BD fw7 t-c f24-34 mb55">Новости</h2>
         <article>
             <img src="img/captain.png" alt="captain">
-            <p class="f16-19 c-8693A4 mt3">Победитель регаты шкипер Иван Кулешов</p>
-            <p class="fw7 f22-26">Итоги регаты Sochi Race Week 2020</p>
+            <p class="f16-19 c-8693A4 mt13">Победитель регаты шкипер Иван Кулешов</p>
+            <p class="fw7 f22-26 mt34">Итоги регаты Sochi Race Week 2020</p>
             <p class="f18-26">Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный
                 приз. В соревнованиях приняли участие как новички, так и <span class="l-t">профессионалы</span> моряки,
                 имеющие за плечами немалый опыт.</p>
@@ -90,28 +90,29 @@
                 4 гоночных дня, 3 дивизиона.</p>
             <div>
                 <span class="fw7 f20-26">Команды-участники:</span>
-                <ul class="mb24">
-                    <li class="f18-26">Восток 35</li>
-                    <li class="f18-26">Fortune Sailing</li>
-                    <li class="f18-26">Сибирь</li>
-                    <li class="f18-26">Левиафан</li>
-                    <li class="f18-26">Черный лебедь</li>
-                    <li class="f18-26">White Pepper</li>
-                    <li class="f18-26">Pearl</li>
+                <ul class="teams mb32 df fd-c jc-sb">
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Восток 35</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Fortune Sailing</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Сибирь</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Левиафан</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Черный лебедь</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>White Pepper</li>
+                    <li class="df ai-c f18-26"><div class="ellipse"></div>Pearl</li>
                 </ul>
             </div>
-            <p class="mt3 f18-26">Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году
+            <p class="mt3 f18-26 mb35">Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, в прошлом году
                 остановившаяся в одном шаге от победы, а в этом сезоне опередившая ближайшего соперника — экипаж «Восток
                 35» — на 12 баллов 5 баллов.</p>
-            <h2 class="fw7 f22-26 ml40">Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и
+            <h2 class="fw7 f22-26 bl-00C6BD">Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и
                 победили</h2>
             <p class="f18-26">Поздравляем победителей и ждем все участников снова на осенних регатах! </p>
-            <div>
-                <img src="img/author.png" alt="author">
-                <br>
-                <p class="fw7 f16-19">Артем Колесников<span class="c-8693A4 fw4">20.06.2021</span></p>
-
-                <img src="img/share.svg" alt="share">
+            <div class="df ai-c">
+                <img src="img/author.png" alt="author" width="60px" height="60px">
+                <div>
+                    <p class="fw7 f16-19">Артем Колесников</p>
+                    <p class="c-8693A4 f16-19">20.06.2021</p>
+                </div>
+                <img class="ml-a opacity" src="img/share.svg" alt="share">
             </div>
         </article>
     </section>
@@ -119,33 +120,33 @@
     <section class="contacts df fd-r">
         <div class="text-block">
             <h2 class="ul-00C6BD f24-34 mb35">Контакты</h2>
-            <ul>
+            <ul class="info">
                 <li class="f16-22">
-                    <h3 class="fw7 f16-22">Адрес:</h3>
-                    <address>г. Сочи, ул. Бзугу, 9</address>
+                    <h3 class="fw7 f16-22 dib mr10">Адрес:</h3>
+                    <address class="dib">г. Сочи, ул. Бзугу, 9</address>
                 </li>
 
                 <li class="f16-22">
-                    <h3 class="fw7 f16-22">Телефон:</h3>
+                    <h3 class="fw7 f16-22 dib mr10">Телефон:</h3>
                     <a>8 (622) 62-05-63</a>
                 </li>
 
                 <li class="f16-22">
-                    <h3 class="fw7 f16-22">E-mail:</h3>
+                    <h3 class="fw7 f16-22 dib mr10">E-mail:</h3>
                     <a>yachtclub-sochi@mail.ru</a>
                 </li>
 
                 <li class="f16-22">
                     <h3 class="fw7 f16-22">Мы в социальных сетях:</h3>
 
-                    <ul>
-                        <li>
+                    <ul class="info df">
+                        <li class="networks cl-00C6BD df jc-c ai-c mr30 opacity">
                             <img src="img/fackbooklogo.svg" alt="fackbook logotype">
                         </li>
-                        <li>
+                        <li class="networks cl-00C6BD df jc-c ai-c mr30 opacity">
                             <img src="img/twitterlogo.svg" alt="twitter logotype">
                         </li>
-                        <li>
+                        <li class="networks cl-00C6BD df jc-c ai-c opacity">
                             <img src="img/instagramlogo.svg" alt="instagram logotype">
                         </li>
                     </ul>
@@ -168,7 +169,7 @@
         <ul class="footer-navigation-topics df fd-r">
             <li>
                 <h2>Компания</h2>
-                <ul>
+                <ul class="df fd-c jc-sb">
                     <li><a href="#">О нас</a></li>
                     <li><a href="#">Команда</a></li>
                     <li><a href="#">Новости</a></li>
@@ -178,7 +179,7 @@
             </li>
             <li>
                 <h2>Яхт-клуб</h2>
-                <ul>
+                <ul class="df fd-c jc-sb">
                     <li><a href="#">Правила</a></li>
                     <li><a href="#">Стоимость</a></li>
                     <li><a href="#">Анкета</a></li>
@@ -188,7 +189,7 @@
             </li>
             <li>
                 <h2>Услуги</h2>
-                <ul>
+                <ul class="df fd-c jc-sb">
                     <li><a href="#">Аренда яхты</a></li>
                     <li><a href="#">Свадьба на яхте</a></li>
                     <li><a href="#">День рождения</a></li>
@@ -198,7 +199,7 @@
             </li>
             <li>
                 <h2>Регаты</h2>
-                <ul>
+                <ul class="df fd-c jc-sb" >
                     <li><a href="#">Корпоративные регаты</a></li>
                     <li><a href="#">Календарь мероприятий</a></li>
                     <li><a href="#">Стать участником</a></li>

@@ -12,11 +12,26 @@ a {
     text-decoration: none;
 }
 
+.opacity:hover {
+    opacity: 0.7;
+}
+
+.opacity:active {
+    opacity: 0.5;
+}
+
 /* --------------- display --------------- */
 
 .df {
     display: flex;
 }
+
+.dib {
+    display: inline-block;
+}
+
+/* --------------- flex --------------- */
+
 
 .fd-r {
     flex-direction: row;
@@ -28,6 +43,14 @@ a {
 
 .jc-sb {
     justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
 }
 
 /* --------------- text size --------------- */
@@ -86,6 +109,16 @@ a {
     text-underline-offset: 22px;
 }
 
+.bl-00C6BD {
+    border-left: #00C6BD solid 2px;
+    padding-left: 20px;
+}
+
+.cl-00C6BD {
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+}
+
 .l-t {
     text-decoration: line-through;
 }
@@ -112,16 +145,40 @@ a {
 
 /* --------------- margin padding --------------- */
 
+.mt0 {
+    margin-top: 0;
+}
+
 .mt3 {
     margin-top: 3px;
 }
 
-.ml40 {
-    margin-left: 40px;
+.mt13 {
+    margin-top: 13px;
+}
+
+.mt34 {
+    margin-top: 32px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.ml-a {
+    margin-left: auto;
 }
 
 .mb24 {
     margin-bottom: 24px;
+}
+
+.mb32 {
+    margin-bottom: 32px;
 }
 
 .mb35 {
@@ -136,7 +193,7 @@ a {
 
 header {
     width: 1170px;
-    height: 144px;
+    height: 108px;
     padding: 20px 55px;
     margin: 0 auto 40px auto;
 }
@@ -146,17 +203,18 @@ header > div {
 }
 
 nav {
-    width: 560px;
-    margin: 0 40px 0 470px;
+    margin: 0 10px 0 465px;
 }
 
 nav span {
     margin-block-start: auto;
     margin-block-end: auto;
+    margin-right: 30px;
 }
 
 .user {
     width: 36px;
+    height: 36px;
 }
 
 /* --------------- main --------------- */
@@ -211,6 +269,10 @@ nav span {
     height: 779px;
 }
 
+.inactive {
+    opacity: 0.5;
+}
+
 /* --------------- news / contact --------------- */
 
 .news {
@@ -227,6 +289,11 @@ nav span {
     height: 1260px;
 }
 
+.teams {
+    padding-inline-start: 0;
+    height: 230px;
+}
+
 .contacts h2 {
     margin-block-start: 0;
 }
@@ -235,6 +302,24 @@ nav span {
     order: 1;
     width: 400px;
     margin-left: auto;
+}
+
+.info {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.teams .ellipse {
+    height: 0;
+    width: 0;
+    border: 4.5px solid #163152;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.networks {
+    height: 40px;
+    width: 40px;
 }
 
 /* --------------- footer --------------- */
@@ -274,6 +359,7 @@ nav span {
 .footer-navigation-topics ul {
     list-style: none;
     padding-inline-start: 0;
+    height: 128px;
 }
 
 .footer-navigation-topics h2 {
