@@ -167,6 +167,8 @@ nav span {
     padding: 0 55px;
 }
 
+/* --------------- article / hero --------------- */
+
 .hero {
     height: 573px;
     margin-bottom: 120px;
@@ -201,6 +203,15 @@ nav span {
     order: -1;
     margin-right: 30px;
 }
+
+/* --------------- gallery --------------- */
+
+.gallery {
+    margin-bottom: 120px;
+    height: 779px;
+}
+
+/* --------------- news / contact --------------- */
 
 .news {
     width: 770px;
