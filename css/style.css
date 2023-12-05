@@ -8,6 +8,11 @@ body {
 
 /* --------------- text size --------------- */
 
+.f16-19 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .f16-22 {
     font-size: 16px;
     line-height: 22px;
@@ -16,6 +21,21 @@ body {
 .f16-24 {
     font-size: 16px;
     line-height: 24px;
+}
+
+.f18-26 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.f20-26 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.f22-26 {
+    font-size: 22px;
+    line-height: 26px;
 }
 
 .f24-34 {
@@ -37,8 +57,24 @@ body {
     text-underline-offset: 22px;
 }
 
+.l-t {
+    text-decoration: line-through;
+}
+
+.c-8693A4 {
+    color: #8693A4;
+}
+
 .uc {
     text-transform: uppercase;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.fw4 {
+    font-weight: 400;
 }
 
 .fw7 {
@@ -46,6 +82,18 @@ body {
 }
 
 /* --------------- margin padding --------------- */
+
+.mt3 {
+    margin-top: 3px;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+.mb14 {
+    margin-bottom: 24px;
+}
 
 .pb4 {
     padding-bottom: 4px;
