@@ -1,0 +1,52 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #163152;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400
+}
+
+/* --------------- text size --------------- */
+
+.f16-22 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.f16-24 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.f24-34 {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.f44-60 {
+    font-size: 44px;
+    line-height: 60px;
+}
+
+/* --------------- text decoration --------------- */
+
+.ul-00C6BD {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #00C6BD;
+    text-underline-offset: 22px;
+}
+
+.uc {
+    text-transform: uppercase;
+}
+
+.fw7 {
+    font-weight: 700;
+}
+
+/* --------------- margin padding --------------- */
+
+.pb4 {
+    padding-bottom: 4px;
+}
